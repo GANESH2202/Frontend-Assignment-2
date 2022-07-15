@@ -1,0 +1,112 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ body{
+    background-color: #f3f3f3;
+    font-family: sans-serif;
+    
+}
+ 
+h1{
+   grid-column: 1/-1;
+   text-align: center;
+   color: orangered;
+   padding: 10px;
+   font-weight: 600;
+   font-size: 25px;
+   
+
+}
+nav{
+   background-color:  limegreen;
+   display: grid;
+   place-items: center;
+   
+   
+   
+}
+nav ul{
+   list-style-type: none;
+}
+nav ul a{
+   display: inline-block;
+   padding: 20px;
+   text-decoration: none;
+   color: black;
+  
+   font-size: 18px;
+}
+nav ul a:hover{
+   background-color: green;
+   color: white;
+
+}
+.menu{
+   background-color: #f3f3f3;
+   display: grid;
+   padding: 10px 10px 30px 10px;
+   grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+   grid-gap: 20px 40px;
+
+
+}
+.food-items{
+   display: grid;
+   position: relative;
+   grid-template-rows: auto 1fr;
+   border-radius: 15px;
+   box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+.food-items img{
+   position: relative;
+   width: 100%;
+   border-radius: 15px 15px 0 0;
+   
+}
+
+.Details{
+   padding: 20px 20px;
+   display: grid;
+   grid-template-rows: auto 1fr 50px;
+   grid-row-gap: 15px;
+   font-size: 20px;
+}
+.Details>button{
+   background-color: limegreen;
+   border: none;
+   color: white;
+   font-size: 18px;
+   font-weight: 400;
+   border-radius: 5px;
+   width: 180px;
+
+}
+button:hover{
+   background-color:green;
+   
+}
+footer{
+   background-color:  limegreen;
+   display: grid;
+   place-items: center;
+   
+}
+footer p{
+   display: inline-block;
+   padding: 20px;
+   text-decoration: none;
+   font-size: 18px;
+   text-align: center;
+}
+footer a:hover{
+  
+   color: lightblue;
+
+}
+
+
+
+ 
+
